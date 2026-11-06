@@ -1,0 +1,20 @@
+[project]
+name = "pixeltable-youth-soccer-ingest"
+version = "0.1.0"
+description = "Ingest youth soccer match videos on a schedule with timezone-aware kickoffs and highlight clips - built with Pixeltable"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+authors = [{ name = "Pierre Brunelle" }]
+keywords = ["pixeltable", "multimodal", "ai", "computed-columns", "data-infrastructure", "youth-soccer-ingest"]
+dependencies = [
+    "pixeltable>=0.7.23",
+    "pillow",
+    "av",
+    "numpy",
+]
+
+[project.urls]
+Homepage = "https://pixeltable.com"
+Documentation = "https://docs.pixeltable.com"
+Pixeltable = "https://github.com/pixeltable/pixeltable"
